@@ -1,0 +1,125 @@
+body {
+  width: 1240px;
+  font-family: Helvetica;
+  font-size: 22px;
+  color: seashell;
+  background-color: black;
+  opacity: 0.9;
+  text-align: center;
+  }
+.header {
+ display: flex;
+ align-items: center;
+ width: 1240px;
+ height: 69px;
+ position: fixed;
+ top: 0;
+}
+.logo {
+  text-align: left;
+  margin-left: 10px;
+}
+#logo {
+  height: 50px;
+}
+.menu {
+  width: 1140px;
+  display: flex;
+  justify-content: flex-end;
+  align-content: space-between;
+}
+.menu ul {
+  list-style: none;
+}
+.menu li {
+  display: inline;
+  padding-left: 10px;
+  text-decoration: underline;
+}
+.content {
+  width: 1240px;
+  margin-top: 70px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+#mission {
+  background-image: url(../images/img-mission-background.jpg);
+  width: 1200px;
+  height: 700px;
+  display: flex;
+  align-items: center;
+}
+.mission_text {
+  width: 1200px;
+  height: auto;
+  background-color: black;
+}
+#featured {
+  width: 1000px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  }
+.featured_text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  }
+.featured_img {
+  display: flex;
+  align-content: space-between;
+  justify-content: center;
+  flex-flow: row wrap;
+}
+.img {
+  display: inline-flex;
+  flex-direction: column;
+  padding: 10px;
+}
+.img img {
+  width: 300px;
+  height: 200px;
+}
+.img h4 {
+  margin-top: 10px;
+}
+#locations {
+  width: 1200px;
+  height: 500px;
+  padding-top: 70px;
+  background-image: url(../images/img-locations-background.jpg);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.loc {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 75px;
+}
+.address {
+  width: 300px;
+  height: 300px;
+  display:flex;
+  flex-direction: column;
+  margin: 20px;
+  text-align: center;
+  background-color: black;
+  opacity: 1;
+}
+#contact {
+  height: 200px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+#footer {
+  display: block;
+  text-align: left;
+  width: 1240px;
+  margin-left: 20px;
+  }
